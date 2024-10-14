@@ -1,0 +1,31 @@
+{
+  "name": "sweng861_frontendassignemnt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -w server server/server.js",
+    "compile": "babel src --presets @babel/react --out-dir public",
+    "watch": "babel src --presets @babel/react --out-dir public --watch --verbose",
+    "test": "echo \"TEST ERROR DETECTED\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanVerWaals59/sweng861_FrontEndAssignemnt.git"
+  },
+  "author": "daniel alles",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanVerWaals59/sweng861_FrontEndAssignemnt/issues"
+  },
+  "homepage": "https://github.com/DanVerWaals59/sweng861_FrontEndAssignemnt#readme",
+  "dependencies": {
+    "@babel/cli": "^7.25.6",
+    "@babel/core": "^7.25.2",
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.24.7",
+    "nodemon": "^3.1.7"
+  }
+}
